@@ -1,2 +1,53 @@
-# Default reviewers for the entire repository
-* @benjaminocotzi-ux
+# ==========================================
+# REGLA GLOBAL
+# Aplica a todos los archivos del repositorio
+# ==========================================
+*                       @benjaminocotzi-ux @john @maria @pedro
+
+# ==========================================
+# BACKEND
+# ==========================================
+/src/                     @john @maria
+/src/controllers/         @john
+/src/services/            @maria @pedro
+/src/repositories/        @john @pedro
+
+# ==========================================
+# FRONTEND
+# ==========================================
+/frontend/                 @maria @pedro
+/frontend/components/      @maria
+/frontend/pages/           @pedro
+
+# ==========================================
+# JAVA
+# ==========================================
+*.java                     @john @maria
+**/*.java                  @john
+
+# ==========================================
+# CONFIGURACIONES
+# ==========================================
+*.yml                      @pedro
+*.yaml                     @pedro @maria
+*.json                     @john
+Dockerfile                 @maria @pedro
+
+# ==========================================
+# DOCUMENTACIÓN
+# ==========================================
+*.md                       @john
+/docs/                     @maria @pedro
+
+# ==========================================
+# INFRAESTRUCTURA
+# ==========================================
+/terraform/                @john @pedro
+/kubernetes/               @maria
+/.github/                  @john @maria @pedro
+
+# ==========================================
+# EQUIPOS
+# ==========================================
+/security/                 @my-org/security-team
+/devops/                   @my-org/devops-team
